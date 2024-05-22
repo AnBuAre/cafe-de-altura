@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 1,280px;
+    height: 64px;
+    padding: 12px, 40px, 12px, 40px;
+    
+}
+
+.letter-cup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400px;
+    font-size: 23.46px;
+    line-height: 35.19px;
+    width: 186px;
+    height: 36px;
+    opacity: 86%;
+    
+}
+
+.menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+    width: 1,280px;
+    height: 64px;
+    gap: 16px;
+}
+.li-menu-wrapper{
+   font-weight: 600px;
+   font-size: 14px;
+   line-height: 16px;
+}
+
