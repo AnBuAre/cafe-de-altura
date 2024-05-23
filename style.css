@@ -138,6 +138,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
+ 
     width: 1,280px;
     height: 486px;
     padding: 48px, 40px, 48px, 40px;
@@ -150,7 +152,7 @@
 .wrapper{
     display: flex;
     align-items: center;
-    
+    flex-direction: row;
     width: 1,200px;
     height: 390px;
     gap: 24px;
@@ -160,7 +162,6 @@
     justify-content:space-between;
     align-items: start;
     flex-direction: column;
-
     width: 588px;
     height: 232px;
     gap: 16px;
@@ -206,11 +207,12 @@
     border-radius: 4px;
     padding:12px, 24px, 12px, 24px;
     gap: 8px;
-
     background-color: #1F1815;
+    
 
 }
 .cafe-discover{
+    display: flex;
     text-align: center;
     width: 120px;
     height: 16px;
@@ -220,14 +222,19 @@
     color: #FFFFFF;
 }
 .buy{
+    display: flex;
+    align-items: center;
     width: 137px;
     height: 40px;
     border-radius: 4px;
     padding: 12px, 24px, 12px, 24px;
     gap: 8px;
     background-color: #2A5B45;
+    
 }
 .buy-cafe{
+    display: flex;
+    align-items: center;
     width: 89px;
     height: 16px;
     font-weight: 600;
