@@ -665,6 +665,7 @@
 }
 .faqWrapper{
     display: flex;
+    flex-direction: column;
     width: 668px;
     height: 425px;
     gap: 16px;
@@ -680,7 +681,7 @@
     gap: 16px;
     border-radius: 10px ;
     background: #FFFFFF;
-    border: red solid;
+    
 
 } 
 .titleChevron1{
@@ -716,7 +717,7 @@
     padding: 24px;
     gap: 16px;
     background: #F7F5F3;
-    border: red solid 2px;
+    
 
 }
 .titleChevron2{
@@ -757,4 +758,169 @@
     font-size: 18px;
     line-height: 24px;
     color: #2B2A2B;
+}
+
+.linkIconDown{
+    display: flex;
+    align-items: center;
+    width: 178px;
+    height: 24px;
+    gap: 16px;
+}
+#dude{
+    width: 138px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+#arrowNarrow{
+    width: 18px;
+    height: 8px;
+    top: 8px;
+    top: 8px;
+    left: 3px;
+    border: 2px;
+    
+}
+.featureSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+   
+    width: 1280px;
+    height: 480px;
+    background: #F7F5F3;
+
+}
+.wrapperFeature{
+    
+    width: 1,200px;
+    height: 390px;
+    top: 44.61px;
+    left: 40px;
+ 
+}
+.contentFeature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  
+    width: 457px;
+    height: 116px;
+    gap: 16px;
+}
+#coffeeShop{
+    
+    width: 340px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2A5B45;
+
+}
+#paragraphShop{
+    width: 457px;
+    height: 32px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111827;
+}
+.linkIconShop{
+    width: 118px;
+    height: 24px;
+    gap: 16px;
+}
+.adress{
+    width: 78px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.arrowCoffeShopAdress{
+    width: 24px;
+    height: 24px;
+
+}
+#arrowShop{
+    width: 18px;
+    height: 8px;
+    top: 8px;
+    left: 3px;
+    border: 2px;
+    background: #E3DED74D;
+    color: #111827
+
+}
+#heroImage{
+
+    width: 588px;
+    height: 390px;
+    border-radius: 20px;
+    color :#FEFFF5;
+}
+.splitTwoToneDesktop{
+    width: 1,280px;
+    height: 552px;
+    background: #E3DED7;
+
+}
+.leadingContent{
+    width: 1,200px;
+    height: 552px;
+    gap: 24px;
+    opacity: 90%;
+    background: #E3DED7;
+
+}
+.contactSection{
+    width: 588px;
+    height: 320px;
+    gap: 32px;
+}
+.headerContact{
+    width: 588px;
+    height: 68px;
+    gap: 12px;
+
+}
+#titleContact{
+    width: 588px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color:#111827;
+
+}
+#paragraphContact{
+    width: 588px;
+    height: 32px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280;
+
+}
+.contentSection{
+    width: 588px;
+    height: 220px;
+    gap: 24px;
+}
+#paragraphContent{
+    width: 588px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280;
 }
