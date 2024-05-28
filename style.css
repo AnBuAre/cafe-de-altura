@@ -694,10 +694,11 @@
     border-radius: 10px ;
     background: #FFFFFF;
 
-    
 } 
-
-
+.faq1:hover{
+    
+}
+    
 .titleChevron1{
     display: flex;
     width: 620px;
@@ -780,6 +781,7 @@
     width: 178px;
     height: 24px;
     gap: 16px;
+    cursor: pointer;
 }
 #dude{
     width: 138px;
@@ -849,6 +851,7 @@
     width: 118px;
     height: 24px;
     gap: 16px;
+    cursor: pointer;
 }
 .adress{
     width: 78px;
@@ -1046,13 +1049,17 @@
     line-height: 16px;
     color: #6B7280;
 }
-.formLabel{
+.formLabel1{
     display: flex;
     flex-direction: column;   
+   
     margin-top: 20px;
     width: 470px;
     height: 488px;
     gap: 20px;
+}
+#formLabel:hover{
+    border: 2px solid #3F8F6B
 }
 .imputLabel1{
     
@@ -1060,6 +1067,13 @@
     height: 54px;
     gap: 4px;
 
+}
+#labelBox{
+   
+    height: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
 }
 #labelName{
 
@@ -1101,7 +1115,6 @@
 
 }
 #formFieldText{
-    
     width: 470px;
     height: 122px;
     border-radius: 6px;
@@ -1113,7 +1126,14 @@
 
 }
 
+#formFieldText:hover{
+    border: 2px solid #3F8F6B
+}
 .checkBoxInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     width: 470px;
     height: 20px;
     gap: 12px;
@@ -1123,7 +1143,8 @@
     height: 16px;
     border-radius: 4px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    accent-color: green;
+    accent-color: #2A5B45;
+    ;
 
 }
 .buttonSend{
@@ -1133,6 +1154,7 @@
     gap: 8px;
     border-radius: 4px 0px 0px 0px;
     background: #2A5B45;
+    cursor: pointer;
 
 }
 
@@ -1145,6 +1167,7 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+    cursor: pointer;
 
     
 }
