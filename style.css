@@ -8,9 +8,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
     background-color: black;
     color: white;
-    width: 1,280px;
+
+    width: 100vw;
     height: 64px;
     padding: 12px, 40px, 12px, 40px;
     
@@ -56,9 +58,17 @@
     gap: 16px;
 }
 .li-menu-wrapper{
+    display: flex;
+    align-items: center;
+    min-height: 32px;
    font-weight: 600px;
    font-size: 14px;
    line-height: 16px;
+   height: 32px;
+   cursor: pointer;
+}
+.li-menu-wrapper:hover{
+   background: #F7F5F31A 10%;
 }
 
 .frame-9{
@@ -137,13 +147,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
- 
     width: 1,280px;
     height: 486px;
     padding: 48px, 40px, 48px, 40px;
     gap: 8px;
-
+    
     background-color:#E3DED74D;
     box-shadow: 0px 4px 4px 0px #00000040;
     
@@ -155,6 +163,7 @@
     width: 1,200px;
     height: 390px;
     gap: 24px;
+    margin-top: 64px;
 }
 .content{
     display: flex;
@@ -473,8 +482,13 @@
     width: 1,200px;
     height: 391.39px;
     gap: 24px;
+    cursor: pointer;
+}
+.coffeBagGreen:hover{
+    background: #E3DED7;
 
 }
+
 .coffeBagGreen{
     display: flex;
     flex-direction: column;
@@ -679,9 +693,11 @@
     gap: 16px;
     border-radius: 10px ;
     background: #FFFFFF;
-    
 
+    
 } 
+
+
 .titleChevron1{
     display: flex;
     width: 620px;
@@ -1135,7 +1151,9 @@
 .firstFooter{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
+    
     width: auto;
     height: 310px;
     background: #1F1815;
@@ -1144,13 +1162,13 @@
 .footerWrapper{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    
     width: 1,200px;
     height: 204px;
     top: 28.61px;
     left: 40px;
     gap: 16px;
+    
 
 }
 .logoItem{
@@ -1373,7 +1391,7 @@
     top: 12px;
     left: 540.5px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 599;
     line-height: 16px;
     color: #FFFFFF;
 
