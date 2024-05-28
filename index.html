@@ -83,7 +83,8 @@
                 <div class="ilustration1">
                     <img id="clipboard" src="/assets/img/Clipboard check.png">
                 </div>
-                <p id="pretitle1">Recibe tu pedido sin preocuparte</p>
+                
+                <p id="pretitle3">Recibe tu pedido sin preocuparte</p>
                 <p id="paragraph">Tienes cosas más importantes en la cabeza, por eso con nuestra suscripción de café, nunca te quedarás sin tu taza de la mañana. </p>
             </div>
 
@@ -91,7 +92,7 @@
                 <div class="ilustration2">
                     <img class="truck" src="/assets/img/Truck.png">
                 </div>
-                <p id="pretitle2">Envío en 24/48h</p>
+                <p id="pretitle3">Envío en 24/48h</p>
                 <p id="paragraph2">Pide tu café antes de las 12h y lo recibirás al día siguiente.</p>
             </div>
 
@@ -102,7 +103,7 @@
 
                     </div>
                 </div>
-                <p class="pretitle3">Descuentos y beneficios</p>
+                <p id="pretitle3">Descuentos y beneficios</p>
                 <p class="paragraph3">Cada dos meses, te regalamos una bolsa de un nuevo origen sorpresa, para que lo descubras junto a nosotros.</p>
 
             </div>
@@ -123,7 +124,11 @@
             <p class="name">Costa Rica Tarrazú</p>
             <p class="price">9,00 €</p>
         </div>
-        <img id="cafeImage" src="/assets/img/Buttoncafe.png">
+        <div class="buttonSendBag">
+            <button id="sendNow" type="button">Añadir</button>
+        </div>
+        
+        
         </div>
 
         <div class="coffeBagGreen">
@@ -134,7 +139,9 @@
             <p class="price2">9,00 €</p>
             </div>
 
-            <img id="cafeImage" src="/assets/img/Buttoncafe.png">
+            <div class="buttonSendBag">
+                <button id="sendNow" type="button">Añadir</button>
+            </div>
         </div>
 
         <div class="coffeBagGreen">
@@ -143,7 +150,9 @@
                 <p class="name3">Laos Amanecer</p>
                 <p class="price3">9,00 €</p>
             </div>
-            <img id="cafeImage" src="/assets/img/Buttoncafe.png">
+            <div class="buttonSendBag">
+                <button id="sendNow" type="button">Añadir</button>
+            </div>
 
         </div>
 
@@ -153,7 +162,9 @@
                 <p class="name4">Etiopía Yrgacheff</p>
                 <p class="price4">9,00 €</p>
             </div>
-            <img id="cafeImage" src="/assets/img/Buttoncafe.png">
+            <div class="buttonSendBag">
+                <button id="sendNow" type="button">Añadir</button>
+            </div>
         </div>
         
      </div>
@@ -284,18 +295,18 @@
                     </div>
                     <div class="imputLabel1">
                         <label id="labelName" for="nombre">Email</label>
-                        <input id="formLabel" type="text" id="nombre" name="nombre" placeholder="" required>
+                        <input id="formLabel" type="text" id="nombre" name="nombre">
 
                     </div>
                     <div class="imputLabel1">
                         <label id="labelName" for="nombre">Teléfono</label>
                         
-                        <input id="formLabel" type="text" id="nombre" name="nombre" placeholder="" required>
+                        <input id="formLabel" type="text" id="nombre" name="nombre">
                        
                     </div>
                     <div class="imputLabel1">
                         <label id="labelBox" for="box"></label>
-                        <input id="formFieldText" type="text" placeholder="¿En qué podemos ayudarte?">
+                        <textarea id="formFieldText" name="box" placeholder="¿En qué podemos ayudarte?"> </textarea>
 
                     </div>
                     <br><br><br>
