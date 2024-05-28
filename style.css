@@ -867,7 +867,7 @@
 .splitTwoToneDesktop{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     width: auto;  
     height: 552px;
     background: #E3DED7;
@@ -877,7 +877,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+    width: 1200px;
     height: 552px;
     gap: 20px;
     opacity: 90%;
@@ -885,17 +885,17 @@
 
 }
 .contactSection{
-   
-    
     width: 588px;
     height: 320px;
     gap: 32px;
 
 }
 .TrailingContent{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 588px;
-    height: 522px;
+    height: 552px;
     padding: 32px, 32px, 32px, 48px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -952,8 +952,7 @@
 
 }
 .addressShop{
-    
-    
+     
     width: 344px;
     height: 27px;
 
@@ -968,7 +967,6 @@
     color: #6B7280;
 
 }
-   
 
 #springfield{
     width: 133px;
@@ -1136,13 +1134,17 @@
 }
 .firstFooter{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     width: auto;
     height: 310px;
     background: #1F1815;
 
 }
 .footerWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     width: 1,200px;
     height: 204px;
@@ -1169,6 +1171,9 @@
 
 }
 .linksContact{
+    display: flex;
+    justify-content: space-between;
+   
     width: 1132px;
     height: 152px;
 
@@ -1177,10 +1182,12 @@
 .contactWrapperFooter{
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
     width: 255.33px;
     height: 152px;
     gap: 16px;
+    
+  
 }
 #helpCustomer{
     width: 131px;
@@ -1215,6 +1222,158 @@
     height: 16px;
     font-weight: 600px;
     font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+.buttonMail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 232px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 12px, 24px, 12px, 24px;
+    gap: 8px;
+    background: #515051;
+
+}
+.linkButtonMail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 184px;
+    height: 24px;
+    gap: 8px;
+    
+
+}
+#mailButtonContact{
+    width: 24px;
+    height: 24px;
+   
+
+}
+#mailContactAddress{
+    width: 152px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+
+
+}
+.menuWrapperFooter{
+    display: flex;
+    flex-direction: column;
+    
+    width: 96px;
+    height: 144px;
+    top: 2.61px;
+    left: 577px;
+    gap: 16px;
+}
+#shopFooter{
+    width: 46.25px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+#suscription{
+    width: 73px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+#bussines{
+    width: 95px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+#aboutUs{
+    width: 96px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+#contactTlf{
+    width: 59px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+.menuWrapperPolitic{
+    display: flex;
+    flex-direction: column;
+    width: 255.33px;
+    height: 80px;
+    top: 3px;
+    left: 800px;
+    gap: 16px;
+}
+#politic1{
+    width: 137px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+
+
+}
+#politic2{
+    width: 116px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+#politic3{
+    
+    width: 146px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+
+
+}
+.CopyrightFooter{
+   
+    width: auto;
+    height: 40px;
+    top: 270.34px;
+    padding: 12px 380.5px 12px 540.5px;
+    background: #2B2A2B;
+
+}
+#law{
+    width: 359px;
+    height: 16px;
+    top: 12px;
+    left: 540.5px;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 16px;
     color: #FFFFFF;
 
