@@ -682,7 +682,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
     height: 621px;
     padding: 48px, 386px, 48px, 386px;
     gap:24px;
@@ -696,6 +695,7 @@
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
+    margin-top: 0%;
 
 
 }
@@ -712,90 +712,121 @@
     flex-direction: column;
     justify-content: space-between;
     width:668px;
-    height:136px;
+    height: 76px;
     padding: 24px;
     gap: 16px;
     border-radius: 10px ;
     background: #FFFFFF;
+    color: #2B2A2B;
 
 } 
-
+.divider1{
+    width: 620px;
+    border: 1px;
+    border: #E3DED7
+}
     
 .titleChevron1{
     display: flex;
     width: 620px;
     height: 24px;
     justify-content: space-between;
-   
 
 } 
-.content:hover{
-
-}
-.titleChevron1:hover{
-     
-}
- 
+  
 .titleqestion{
     width: 620px;
     height: 24px;
    
 }
-#chepUp{
+#cheUp1{
     width: 20px;
     height: 20px;
 }
+.faq1:hover #cheUp1 {
+    rotate: 180deg;
+}
+.faq1:hover {
+  
+    height: 135px;
+    transition: all 1s ease;
+
+}
 .content1{
     width: 620px;
-    height: 32px;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     color:#2B2A2B;
-    
-
+    overflow: hidden; 
       
 }
 .faq2{
     
     width: 668px;
-    height: 168px;
+    height: 76px;
     border-radius: 10px;
-    padding: 24px;
-    gap: 16px;
-    background: #F7F5F3;
+    padding: 28px;
+    background: #FFFFFF;
+    color: #2B2A2B;
+    overflow: hidden;
     
-
 }
+.faq2:hover{
+    height: 160px;
+    transition: all 1s ease;
+    
+}
+.cheUp2{
+    width: 20px;
+    height: 20px;
+}
+.faq2:hover #cheUp2 {
+    rotate: 180deg;
+}
+
 .titleChevron2{
     display: flex;
     justify-content: space-between;
     width: 620px;
     height: 24px;
+    
 }
-#xsParagraph{
+.content2{
     width: 620px;
     height: 64px;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
+    color: #2B2A2B;
+  
 }
 
 .faq3{
    
     width: 668px;
-    height: 72px;
+    height: 76px;
     border-radius: 10px;
-    padding: 21px;
+    padding: 30px;
     gap: 16px;
-    background: #F7F5F3;
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
 
 }
+
+.faq3:hover{
+    height: 120px;
+    transition: all 1s ease;
+}
+
 .titleChevron3{
     display: flex;
     justify-content: space-between;
     width: 620px;
-    height: 24px;
+    height: 26px;
 
 }
 #title3{
@@ -838,7 +869,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-   
+    min-width: 1280px;
+
     height: 480px;
     background: #F7F5F3;
 
