@@ -712,7 +712,7 @@
     flex-direction: column;
     justify-content: space-between;
     width:668px;
-    height: 76px;
+    height: 72px;
     padding: 24px;
     gap: 16px;
     border-radius: 10px ;
@@ -764,7 +764,7 @@
 .faq2{
     
     width: 668px;
-    height: 76px;
+    height: 72px;
     border-radius: 10px;
     padding: 28px;
     background: #FFFFFF;
@@ -777,11 +777,8 @@
     transition: all 1s ease;
     
 }
-.cheUp2{
-    width: 20px;
-    height: 20px;
-}
-.faq2:hover #cheUp2 {
+
+.faq2:hover #cheUp1 {
     rotate: 180deg;
 }
 
@@ -801,11 +798,14 @@
     color: #2B2A2B;
   
 }
+.faq3:hover #cheUp1{
+    rotate: 180deg;
+}
 
 .faq3{
    
     width: 668px;
-    height: 76px;
+    height: 72px;
     border-radius: 10px;
     padding: 30px;
     gap: 16px;
@@ -827,6 +827,9 @@
     justify-content: space-between;
     width: 620px;
     height: 26px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
 
 }
 #title3{
@@ -868,8 +871,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     min-width: 1280px;
+    gap: 7.5%;
 
     height: 480px;
     background: #F7F5F3;
@@ -1071,6 +1075,7 @@
     
     width: 24px;
     height: 24px;
+    
 }
 #numberDetails{
     
@@ -1079,6 +1084,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    color: #6B7280;
 }
 .numberDetails{
     width: 588px;
@@ -1092,6 +1098,7 @@
     width: 588px;
     height: 24px;
     gap: 12px;
+    color: #6B7280;
 
 }
 #mailDetailIcon{
@@ -1489,23 +1496,25 @@
 
 }
 .CopyrightFooter{
-   
     width: auto;
     height: 40px;
     top: 270.34px;
-    padding: 12px 380.5px 12px 540.5px;
+    padding: 12px 540px 12px 540.5px;
     background: #2B2A2B;
-
+    
 }
 #law{
+    
     width: 359px;
     height: 16px;
     top: 12px;
-    left: 540.5px;
+    
     font-size: 14px;
     font-weight: 599;
     line-height: 16px;
     color: #FFFFFF;
+    gap:50%
+   
 
 
 }
