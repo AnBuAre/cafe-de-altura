@@ -161,14 +161,15 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 1,200px;
+    justify-content: center;
+    width: 1200px;
     height: 390px;
     gap: 24px;
     margin-top: 64px;
 }
 .content{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     flex-direction: column;
     width: 588px;
     height: 232px;
@@ -177,7 +178,7 @@
 .pre-title{
     width: 588px;
     height: 24px;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 18px;
     line-height: 24px;
     color: #2A5B45;
@@ -186,15 +187,16 @@
 .h1{
    width: 588px;
    height: 88px;
-   font-weight: 600px;
+   font-weight: 600;
    font-size: 40px;
    line-height: 44px;
    color: #000000;
 }
 .paragraph{ 
+    display: flex;
     width: 588px;
     height: 32px;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color:#111827;
